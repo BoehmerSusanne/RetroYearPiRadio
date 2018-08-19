@@ -1,16 +1,16 @@
 # RetroYearPiRadio
 This is the software for the Retro Year Pi Radio on instructables.com <br><br>
-## Get the code:
+### Get the code:
 Open a terminal and pull the source code from Github by calling:  <br> 
-*git clone https://github.com/BoehmerSusanne/RetroYearPiRadio.git* <br>
+*__git clone https://github.com/BoehmerSusanne/RetroYearPiRadio.git__* <br>
 <br> 
 Additionally, the libary pygame must be installed on the Raspberry. To do this, enter the following command in the console: 
-*sudo apt-get update && sudo apt-get install python-pygame*
+*__sudo apt-get update && sudo apt-get install python-pygame__*
 
-## Music: 
+### Music: 
 You can put your own music files in the folders with the years from 1950 to 2010. <br>
 
-## Sample Music: 
+#### Sample Music: 
 - Music in 1960 folder: I Dunno by Grapes 
 - Music in 1970 folder: Intentions by Anno Domini Beats
 - Music in 1980 folder: Scouting by Eveningland
