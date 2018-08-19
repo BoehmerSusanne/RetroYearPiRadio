@@ -1,7 +1,9 @@
 # RetroYearPiRadio
-This is the software for the Retro Year Pi Radio on instructables.com. <br>
+This is the software for the Retro Year Pi Radio on instructables.com <br><br>
+## Get the code:
 Open a terminal and pull the source code from Github by calling "git clone https://github.com/BoehmerSusanne/RetroYearPiRadio.git". <br>
-You can put your music files in the folders with the years from 1950 to 2010.
+## Music: 
+You can put your own music files in the folders with the years from 1950 to 2010. <br>
 
 ## Sample Music: 
 - Music in 1960 folder: I Dunno by Grapes 
