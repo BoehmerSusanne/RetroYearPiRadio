@@ -19,6 +19,7 @@ LOW  = False # 0V Pegel (low)
 
 # Music Files 
 noise = glob.glob("MP3/*.mp3")
+soundfile1960 = glob.glob("MP3/1950/*.mp3")
 soundfile1960 = glob.glob("MP3/1960/*.mp3")
 soundfile1970 = glob.glob("MP3/1970/*.mp3")
 soundfile1980 = glob.glob("MP3/1980/*.mp3")
