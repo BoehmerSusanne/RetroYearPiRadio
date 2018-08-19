@@ -43,23 +43,11 @@ DOUT    = 23 # Digital out
 CS      = 25 # Chip-Select
 
 # Konfiguration Eingangskanal und GPIOs von Volume
-
-
-
-'''
-CH_V 	= 1  # Analog/Digital-Channel
-CLK_V   = 26 # Clock
-DIN_V   = 19 # Digital in
-DOUT_V  = 13 # Digital out
-CS_V    = 6 # Chip-Select
-'''
-
 CH_V 	= 1  # Analog/Digital-Channel
 CLK_V   = 18 # Clock
 DIN_V   = 24 # Digital in
 DOUT_V  = 23 # Digital out
 CS_V    = 25 # Chip-Select
-
 
 
 BACK 	= 16
@@ -191,7 +179,7 @@ while True:
 			play(frequency)
 		else:
 			play(noise)
-			print("**************************************************")
+			#print("**************************************************")
 
 	while(pygame.mixer.music.get_busy()):
 		potiValue = getAnalogData(CH, CLK, DIN, DOUT, CS)
@@ -228,7 +216,7 @@ while True:
 		# Änderung der Jahreszahlen
 		diff = abs(potiValue - getAnalogData(CH, CLK, DIN, DOUT, CS))
 		if not isPause and diff > 10: 
-			print "alt Poti " + str(potiValue) + " vs neuer " + str(getAnalogData(CH, CLK, DIN, DOUT, CS)) + "  DIFF: " + str(diff)
+			#print "alt Poti " + str(potiValue) + " vs neuer " + str(getAnalogData(CH, CLK, DIN, DOUT, CS)) + "  DIFF: " + str(diff)
 
 			if (30 <= getAnalogData(CH, CLK, DIN, DOUT, CS) < 125):
 				frequency = soundfile2010
@@ -253,7 +241,7 @@ while True:
 				play(frequency)
 			else:
 				play(noise)
-				print("**************************************************")
+				#print("**************************************************")
 				
 
 
