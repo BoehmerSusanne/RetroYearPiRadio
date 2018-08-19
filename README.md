@@ -11,6 +11,7 @@ Additionally, the libary pygame must be installed on the Raspberry. To do this, 
 You can put your own music files in the folders with the years from 1950 to 2010. <br>
 
 #### Sample Music: 
+- Music in 1950 folder: Dreams by Joakim Karud
 - Music in 1960 folder: I Dunno by Grapes 
 - Music in 1970 folder: Intentions by Anno Domini Beats
 - Music in 1980 folder: Scouting by Eveningland
